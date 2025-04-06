@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: 'Kazutti Portfolio',
   description: 'Kazuttiのポートフォリオ',
+  icons: {
+    icon: '/favicon.png',
+  }
 }
 
 export default function RootLayout({ children }) {
