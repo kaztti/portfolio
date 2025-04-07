@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html,
+body {
+  background: url("/ekiden.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: var(--foreground);
+  min-height: 100vh;
+}

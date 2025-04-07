@@ -7,6 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaUser, FaProjectDiagram, FaEnvelope } from "react-icons/fa";
 
+
 export default function Home() {
     const particlesInit = useCallback(async (engine) => {
         await loadFull(engine);
@@ -65,8 +66,8 @@ export default function Home() {
     ];
 
     return (
-        <div className="relative min-h-screen bg-gradient-to-b from-[#1b1b1b] via-[#121212] to-[#0b0b0b] text-white overflow-hidden flex flex-col items-center px-4 py-20">
-            {/* パーティクル背景 */}
+        <div className="relative min-h-screen bg-gradient-to-b from-[#df99f5] via-[#fd92b8] to-[#f7ae5c] text-white overflow-hidden flex flex-col items-center px-4 py-20">
+            {/* 雲のパーティクル */}
             <Particles
                 id="tsparticles"
                 init={particlesInit}
@@ -98,7 +99,7 @@ export default function Home() {
                 className="absolute top-0 left-0 w-full h-full z-0"
             />
 
-            {/* ヘッダー */}
+            {/* アイコン */}
             <main className="z-10 flex flex-col sm:flex-row items-center gap-6 text-left mb-14">
                 <Image
                     src="/KAZUTTI.png"
