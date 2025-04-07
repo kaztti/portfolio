@@ -44,21 +44,21 @@ export default function Home() {
     const sections = [
         {
             title: "PROFILE",
-            desc: "Kazutti のプロフィールはこちらから",
+            desc: "プロフィールはこちら。",
             href: "/introduction",
             icon: FaUser,
             color: "#df99f5",
         },
         {
-            title: "PROJECT'S",
-            desc: "開発したプラグインやプロジェクトをまとめています",
-            href: "/projects",
+            title: "ACHIEVEMENTS",
+            desc: "私の実績はこちら。",
+            href: "/achievement",
             icon: FaProjectDiagram,
             color: "#fd92b8",
         },
         {
             title: "CONTACT",
-            desc: "問い合わせやSNSなどはこちらから",
+            desc: "問い合わせやSNSはこちら。",
             href: "/contact",
             icon: FaEnvelope,
             color: "#f7ae5c",
