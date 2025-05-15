@@ -51,7 +51,7 @@ export default function Home() {
         },
         {
             title: "ACHIEVEMENTS",
-            desc: "私の実績はこちら。",
+            desc: "私のキャリアや実績はこちら。",
             href: "/achievement",
             icon: FaProjectDiagram,
             color: "#fd92b8",
@@ -67,7 +67,7 @@ export default function Home() {
 
     return (
         <div className="relative min-h-screen bg-gradient-to-b from-[#df99f5] via-[#fd92b8] to-[#f7ae5c] text-white overflow-hidden flex flex-col items-center px-4 py-20">
-            {/* 雲のパーティクル */}
+            {/*雲のパーティクル*/}
             <Particles
                 id="tsparticles"
                 init={particlesInit}
@@ -99,7 +99,7 @@ export default function Home() {
                 className="absolute top-0 left-0 w-full h-full z-0"
             />
 
-            {/* アイコン */}
+            {/*アイコン*/}
             <main className="z-10 flex flex-col sm:flex-row items-center gap-6 text-left mb-14">
                 <Image
                     src="/KAZUTTI.png"
@@ -121,7 +121,7 @@ export default function Home() {
                 </div>
             </main>
 
-            {/* カードセクション */}
+            {/*カードセクション*/}
             <section className="z-10 mt-4 w-full max-w-4xl">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl font-semibold text-pink-400 drop-shadow">
@@ -137,7 +137,7 @@ export default function Home() {
                                 <div
                                     className="bg-white/5 rounded-xl p-6 flex flex-col items-center shadow border border-white/10 text-center transition duration-200 hover:brightness-125"
                                     style={{
-                                        boxShadow: `0 0 16px ${section.color}66`, // タスキ色でふわっと光る
+                                        boxShadow: `0 0 16px ${section.color}66`, 
                                     }}
                                 >
                                     <Icon className="text-4xl mb-3" style={{ color: section.color }} />
@@ -159,7 +159,7 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* フッター */}
+            {/*フッター*/}
             <footer className="absolute bottom-4 text-sm text-gray-400 w-full text-center z-10">
                 © 2025 Kazutti. All rights reserved.
             </footer>
