@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono, Press_Start_2P } from "next/font/google";
 import "./globals.css";
 import ClientWrapper from "@/components/ClientWrapper";
-import LogoHeader from "@/components/LogoHeader"; 
+import LogoHeader from "@/components/LogoHeader";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -17,10 +17,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ja">
       <body className={`${geistSans.variable} ${geistMono.variable} ${pixelFont.variable} antialiased`}>
-        {ロゴ表示}
+        {/* ロゴヘッダー */}
         <LogoHeader />
-
-        {アニメーション遷移}
+        {/* ページ遷移やクライアント側の初期化は ClientWrapper 側で行います */}
         <ClientWrapper>{children}</ClientWrapper>
       </body>
     </html>
