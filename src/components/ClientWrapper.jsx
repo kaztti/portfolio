@@ -9,7 +9,6 @@ export default function ClientWrapper({ children }) {
   const [showBg, setShowBg] = useState(false);
   const [prevPath, setPrevPath] = useState(pathname);
 
-  // ページ遷移を検出して背景表示
   useEffect(() => {
     if (pathname !== prevPath) {
       setShowBg(true);
@@ -17,7 +16,7 @@ export default function ClientWrapper({ children }) {
       const timeout = setTimeout(() => {
         setShowBg(false);
         setPrevPath(pathname);
-      }, 500); // 背景表示の時間（ミリ秒）
+      }, 500); 
 
       return () => clearTimeout(timeout);
     }
@@ -25,7 +24,7 @@ export default function ClientWrapper({ children }) {
 
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
-      {/* ✅ ページ遷移中だけ駅伝背景を表示 */}
+      {/* ページ遷移中だけ */}
       <AnimatePresence>
         {showBg && (
           <motion.div
@@ -43,10 +42,10 @@ export default function ClientWrapper({ children }) {
         )}
       </AnimatePresence>
 
-      {/* ✅ ページ全体を包むアニメーション */}
+      {/* アニメーション */}
       <AnimatePresence mode="wait">
         <motion.div key={pathname} className="relative z-10">
-          {/* 背景レイヤー（ブラー付き・低透明度） */}
+          {/* 背景レイヤー*/}
           <motion.div
             className="absolute inset-0 pointer-events-none"
             initial={{
@@ -76,11 +75,11 @@ export default function ClientWrapper({ children }) {
               zIndex: 0,
             }}
           >
-            {/* 背景画像を固定表示（薄く） */}
+
             <div className="w-full h-full bg-[url('/ekiden.jpg')] bg-cover bg-center opacity-20"></div>
           </motion.div>
 
-          {/* 前景レイヤー（メインコンテンツ） */}
+          {/* レイヤー */}
           <motion.div
             className="relative z-10"
             initial={{

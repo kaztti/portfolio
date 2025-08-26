@@ -17,10 +17,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ja">
       <body className={`${geistSans.variable} ${geistMono.variable} ${pixelFont.variable} antialiased`}>
-        {/* ロゴ表示 */}
+        {ロゴ表示}
         <LogoHeader />
 
-        {/* アニメーション遷移*/}
+        {アニメーション遷移}
         <ClientWrapper>{children}</ClientWrapper>
       </body>
     </html>

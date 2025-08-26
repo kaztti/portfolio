@@ -76,14 +76,14 @@ export default function Introduction() {
         <p>
           こんにちは、<strong>Kazutti</strong> です。
           <br />
-          大学では建築を学びながら、趣味で Minecraft サーバーの運営や、
+          大学では建築を学びながら、趣味で Minecraft サーバーを運営したり、
           <br />
-          プログラミングをやっています。また、空いた時間にジョギングもしています。
+          プラグインを作ったりしています。普段は走ることも好きで、気分転換にジョギングをしてリフレッシュしています。
         </p>
         <p>
-          最近は <strong>BLOOM VASE</strong> の音楽にハマっています。
+          音楽は <strong>BLOOM VASE</strong> をよく聴きます。
           <br />
-          だけど、好きな楽曲は 平井 大 さんの <strong>A Song for You</strong> です。
+          特にお気に入りは 平井大 さんの <strong>A Song for You</strong> です。
         </p>
       </div>
 
@@ -93,22 +93,22 @@ export default function Introduction() {
           {
             title: "Development",
             color: "bg-[#df99f5]",
-            text: "Java、JavaScript、SQLite などを使って、自身のウェブサイトや Minecraft のプラグインを作っています。プログラミング歴は１年ぐらいです。",
+            text: "Java / JavaScript / SQLite / ChatGPT を使って、Webサイトや Minecraft のプラグインを開発しています。プログラミングを始めてからは約1年。まだ学ぶことは多いですが、運営しているサーバーで実際に作成したプラグインを使用しています。",
           },
           {
             title: "Server Management",
             color: "bg-[#fd92b8]",
-            text: "Minecraft サーバー「らーす鯖」を運営していて、プレイヤーのサポートやメンテナンス、コンテンツ追加などを行っています。今年で３年目になるらしい。",
+            text: "Minecraft サーバー『らーす鯖』を運営しています。プレイヤーのサポートやサーバーメンテナンス、コンテンツ追加などを行っていて、今年で3年目になります。",
           },
           {
             title: "Running",
             color: "bg-[#f7ae5c]",
-            text: "小学生の頃から続けていて、最近また走り始めました。毎日、家や競技場の周りをジョギングしていて、サーバー運営のストレスをリフレッシュしています。",
+            text: "小学生の頃から走ることが好きで、今はほぼ毎日ジョギングを続けています。サーバー運営で疲れたときも、走ることで頭をリフレッシュしています。",
           },
           {
             title: "Teamwork",
             color: "bg-[#f1f179]",
-            text: "性格はINFJ型です。コミュニケーションは、自分が慣れた人としか出来ません。誰よりも気配りができる自信はあります。",
+            text: "一人で作業するのも得意ですが、必要な場面では仲間と協力することを大事にしています。自分から積極的に声をかけるタイプではありませんが、気軽に声をかけてもらえるとうれしいです。",
           },
         ].map((section, index) => (
           <div
