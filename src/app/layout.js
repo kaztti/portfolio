@@ -9,7 +9,7 @@ const pixelFont = Press_Start_2P({ subsets: ["latin"], weight: "400", variable: 
 
 export const metadata = {
   title: "Kazutti Portfolio",
-  description: "Kazuttiのポートフォリオ",
+  description: "かずってぃのポートフォリオ",
   icons: { icon: "/favicon.png" },
 };
 
