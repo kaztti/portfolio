@@ -93,7 +93,7 @@ export default function Introduction() {
           {
             title: "Development",
             color: "bg-[#df99f5]",
-            text: "Java / JavaScript / SQLite / ChatGPT を使って、Webサイトや Minecraft のプラグインを開発しています。プログラミングを始めてからは約1年。まだ学ぶことは多いですが、運営しているサーバーで実際に作成したプラグインを使用しています。",
+            text: "Java / JavaScript / SQLite / ChatGPT を使って、Webサイトや Minecraft のプラグインを開発しています。プログラミングを始めてからは約1年。まだ学ぶことは多いですが、実際に運営しているサーバーで作成したプラグインを使用しています。",
           },
           {
             title: "Server Management",
