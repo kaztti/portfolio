@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function AchievementPage() {
   const highlights = [
-    { label: "開発経験", value: "1年+", caption: "Java / JS / SQLite /ChatGPT" },
+    { label: "開発経験", value: "1年+", caption: "Java / JS / SQLite" },
     { label: "運用歴", value: "2年+", caption: "らーす鯖 運営" },
-    { label: "制作実績", value: "3+", caption: "Web / Plugin" },
+    { label: "制作実績", value: "3+", caption: "Web / MenuPlugin / RearthCore / RearthServer" },
   ];
 
   const timeline = [
@@ -16,11 +16,11 @@ export default function AchievementPage() {
       chips: ["Minecraft Plugin", "Towny", "戦争"],
     },
     {
-      date: "2024",
+      date: "2025",
       title: "Web ポートフォリオ構築",
       desc:
-        "Next.jsでポートフォリオを  作成。",
-      chips: ["Next.js", "Vercel", "UI/UX"],
+        "Next.jsを使用したポートフォリオを作成。",
+      chips: ["Next.js", "Vercel"],
     },
     {
       date: "2023",
@@ -35,13 +35,13 @@ export default function AchievementPage() {
     {
       title: "RearthWar (開発中)",
       body:
-        "前哨戦/本戦/戦後処理の3フェーズ。信用値/経済制裁/クールダウンなども加えた、新たな戦争システム。",
+        "RearthServerで運用予定の国家間戦争システム。Earthサーバーで欠かせないゲーム性・経済・外交にまで結びつけたサーバー独自の大規模戦争システム。",
       meta: "Java・Paper 1.21 / Towny・Vault 連携",
     },
     {
       title: "らーす鯖",
       body:
-        "地球をコンセプトにしたearth系クロスプレイマルチサーバー。今年で3年目になりこれまでに約10000人が訪れたサーバー。",
+        "地球をコンセプトにしたearth系クロスプレイマルチサーバー。今年で3年目。これまでに約10000人が訪れたサーバー。",
       meta: "らーす鯖 / コミュニティ / 🌍",
     },
   ];
