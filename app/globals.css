@@ -41,24 +41,33 @@ body {
   padding: 2rem; 
 }
 
+/* 看板のデザイン */
 .sign-main {
-  background-color: #8b4513;
-  background-image: url('/wood.png');
-  background-repeat: repeat;
+  background-color: #A0522D; 
   
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.03) 0px,
+    rgba(0, 0, 0, 0.03) 2px,
+    transparent 2px,
+    transparent 5px
+  );
+
   border: 4px solid #5a2d0c;
   
-  color: #ffff55; 
-  text-shadow: 3px 3px 0 #000, -2px 2px 0 #000;
+  /* タイトル文字 */
+  color: #fffacd; 
+  text-shadow: 2px 2px 0 #3e2723; 
   font-weight: normal;
   
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
-  transform: rotate(-1deg); 
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); 
+  transform: rotate(-1deg);
   
   text-align: center;
   width: 100%;
   max-width: 650px;
-  padding: 2rem 1.5rem;
+  padding: 2.5rem 2rem;
+  border-radius: 4px; 
 }
 
 .sign-subtext {
@@ -86,7 +95,7 @@ body {
 }
 
 .inventory-title {
-  color: #404040; /* 濃いグレー */
+  color: #404040; 
   font-size: 1.5rem;
   font-weight: normal;
   text-align: center;
