@@ -36,11 +36,6 @@ export default function Profile() {
           </div>
 
           <div className="status-row">
-            <span className="status-label">拠点:</span>
-            日本サーバー (Tokyo)
-          </div>
-
-          <div className="status-row">
             <span className="status-label">特技：</span>
             プログラミング, デザイン, cad
           </div>
@@ -95,22 +90,6 @@ export default function Profile() {
               </div>
             </div>
 
-          </div>
-
-          <div className="status-row" style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
-            <span className="status-label">SNS:</span>
-            <div style={{ display: 'flex', gap: '0.5rem' }}>
-              
-              <a href="https://x.com/kaz_tti" target="_blank" rel="noopener noreferrer" className="sns-button">
-                X (Twitter)
-              </a>
-
-              {/* GitHub */}
-              <a href="https://github.com/kaztti" target="_blank" rel="noopener noreferrer" className="sns-button">
-                GitHub
-              </a>
-
-            </div>
           </div>
 
           <div style={{ marginTop: '1.5rem', paddingTop: '0.5rem' }}>
