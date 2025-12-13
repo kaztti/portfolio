@@ -89,7 +89,20 @@ export default function Profile() {
                 <div className="timeline-title" style={{ fontSize: '1.2rem' }}>次のコマンド勢採用でリベンジを果たすためにMOD勉強を始める</div>
               </div>
             </div>
+          </div>
 
+          <div className="status-row" style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
+            <span className="status-label">SNS:</span>
+            <div style={{ display: 'flex', gap: '0.5rem' }}>
+              
+              <a href="https://twitter.com/kaz_tti" target="_blank" rel="noopener noreferrer" className="sns-button">
+                X (Twitter)
+              </a>
+
+              <a href="https://github.com/kaztti" target="_blank" rel="noopener noreferrer" className="sns-button">
+                GitHub
+              </a>
+            </div>
           </div>
 
           <div style={{ marginTop: '1.5rem', paddingTop: '0.5rem' }}>
