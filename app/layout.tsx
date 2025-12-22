@@ -10,7 +10,7 @@ const pixelFont = Press_Start_2P({
 
 export const metadata: Metadata = {
   title: "Kazutti Portfolio",
-  description: "A Minecraft-style portfolio website.",
+  description: "かずっちのポートフォリオ.",
 };
 
 export default function RootLayout({
