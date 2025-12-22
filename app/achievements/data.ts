@@ -23,7 +23,7 @@ export const achievementList: Achievement[] = [
     id: 'menu-plugin',
     title: 'メニュープラグイン',
     description: 'らーす鯖で使用しているメニュープラグインを開発しました。GUIでの操作性を重視し、ユーザーが直感的に利用できるよう工夫しました。',
-    date: '2024-12',
+    date: '2024-8',
     icon: '🌳', 
     type: 'task',
   },
