@@ -33,7 +33,6 @@ export default function RootLayout({
           {children}
         </div>
 
-        {/* フッター */}
         <footer style={{
           width: '100%',
           textAlign: 'center',
