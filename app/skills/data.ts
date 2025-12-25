@@ -69,7 +69,7 @@ export const skillList: Skill[] = [
     id: 'mc-plugin',
     name: 'MC-Plugin',
     iconUrl: 'https://placehold.co/64x64/fcf3cf/000000.png?text=Plugin',
-    description: 'Spigot/Paper APIを使用したサーバーサイドプラグインの開発。独自機能の実装を行います。',
+    description: 'らーす鯖で使用しているプラグインを開発しています。メニュープラグインやPVPシステムを制作しました。',
     category: 'backend',
     experience: '1年+',
     level: 4,
