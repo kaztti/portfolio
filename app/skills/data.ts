@@ -1,4 +1,4 @@
-export type SkillCategory = "frontend" | "backend" | "tools" | "design";
+export type SkillCategory = "minecraft" | "frontend" | "backend" | "tools" | "design";
 
 export interface Skill {
   id: string;
@@ -11,6 +11,7 @@ export interface Skill {
 }
 
 export const categories = [
+  { id: "minecraft", name: "マイクラ開発", icon: "⛏️" },
   { id: "frontend", name: "フロントエンド", icon: "🌐" },
   { id: "backend", name: "バックエンド", icon: "⚙️" },
   { id: "tools", name: "ツール/その他", icon: "🧰" },
@@ -59,7 +60,7 @@ export const skillList: Skill[] = [
     name: "MC-Commands",
     badge: { text: "CMD", background: "#c77e4e", color: "#ffffff" },
     description: "mcfunctionを用いたデータパック制作や、単純なコマンドギミックの構築が可能です。",
-    category: "tools",
+    category: "minecraft",
     experience: "8か月",
     level: 4,
   },
@@ -68,7 +69,7 @@ export const skillList: Skill[] = [
     name: "MC-Plugin",
     badge: { text: "Plugin", background: "#fcf3cf", color: "#000000" },
     description: "らーす鯖で使用しているプラグインを開発しています。メニュープラグインやPVPシステムを制作しました。",
-    category: "backend",
+    category: "minecraft",
     experience: "1年6か月",
     level: 5,
   },
@@ -77,7 +78,7 @@ export const skillList: Skill[] = [
     name: "Mod",
     badge: { text: "Mod", background: "#444444", color: "#ffffff" },
     description: "50人クラフトのコマンド勢採用に向けて、Forgeを使用したMOD開発を勉強しています。",
-    category: "backend",
+    category: "minecraft",
     experience: "7か月",
     level: 2,
   },
