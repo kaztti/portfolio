@@ -5,6 +5,7 @@ const menuItems = [
   { href: "/profile", label: "プロフィール" },
   { href: "/skills", label: "私のスキル" },
   { href: "/achievements", label: "実績一覧" },
+  { href: "/works", label: "作品一覧" },
 ];
 
 export default function Home() {

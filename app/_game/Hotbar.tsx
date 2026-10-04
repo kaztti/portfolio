@@ -24,7 +24,7 @@ export const hotbarSlots: HotbarSlot[] = [
   { label: "実績", icon: "diamond", href: "/achievements", activate: (router) => router.push("/achievements") },
   { label: "GitHub", icon: "chest", activate: () => openExternal("https://github.com/kaztti") },
   { label: "X (Twitter)", icon: "feather", activate: () => openExternal("https://twitter.com/kaz_tti") },
-  { label: "進捗一覧 (L)", icon: "compass", activate: () => setState({ overlay: "advancements" }) },
+  { label: "作品一覧", icon: "pickaxe", href: "/works", activate: (router) => router.push("/works") },
   {
     label: "デバッグ画面 (F3)",
     icon: "clock",

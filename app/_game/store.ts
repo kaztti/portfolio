@@ -112,7 +112,7 @@ export function unlock(id: AdvancementId) {
   }
 }
 
-export const pageRoutes = ["/", "/profile", "/skills", "/achievements"] as const;
+export const pageRoutes = ["/", "/profile", "/skills", "/achievements", "/works"] as const;
 
 export function visit(path: string) {
   if (!state.visited.includes(path)) {

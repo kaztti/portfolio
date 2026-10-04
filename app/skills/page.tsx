@@ -80,6 +80,11 @@ export default function SkillsPage() {
                 </li>
               ))}
             </ul>
+            {activeCategory === "minecraft" && (
+              <Link href="/works" className="adv-link-button skills-works-link">
+                作品一覧を見る →
+              </Link>
+            )}
           </div>
 
           <article className="skill-detail" aria-live="polite">

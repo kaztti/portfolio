@@ -62,7 +62,7 @@ export const skillList: Skill[] = [
     description: "mcfunctionを用いたデータパック制作や、単純なコマンドギミックの構築が可能です。",
     category: "minecraft",
     experience: "8か月",
-    level: 4,
+    level: 2,
   },
   {
     id: "mc-plugin",

@@ -1,0 +1,221 @@
+.works-page {
+  gap: 1.5rem;
+}
+
+.works-intro {
+  text-align: center;
+}
+
+.works-intro .page-title {
+  margin-bottom: 0.4rem;
+}
+
+.works-lead {
+  margin: 0;
+  color: #eee;
+  font-family: "DotGothic16", var(--font-pixel), monospace;
+  font-size: 0.95rem;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.works-section {
+  width: 100%;
+  max-width: 960px;
+  padding: 1rem 1.25rem 1.1rem;
+  background: #c6c6c6;
+  border: 4px solid #000;
+  box-shadow: inset 4px 4px 0 #fff, inset -4px -4px 0 #555;
+}
+
+.works-section-header {
+  margin-bottom: 0.25rem;
+}
+
+.works-section-title {
+  margin: 0;
+  color: #404040;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.works-carousel {
+  position: relative;
+}
+
+.works-carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.4rem;
+  margin: -1.6rem 0 0.6rem;
+}
+
+.works-count {
+  margin-right: 0.4rem;
+  color: #555;
+  font-family: "DotGothic16", var(--font-pixel), monospace;
+  font-size: 0.85rem;
+}
+
+.works-arrow {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1;
+  text-shadow: 2px 2px 0 #202020;
+  cursor: pointer;
+  background: #8b8b8b;
+  border: 2px solid #000;
+  box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.3), inset -2px -2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.works-arrow:hover:not(:disabled) {
+  color: #ffffa0;
+  background: #9b9b9b;
+}
+
+.works-arrow:disabled {
+  color: #888;
+  cursor: default;
+  background: #6b6b6b;
+  box-shadow: none;
+}
+
+.works-track {
+  display: flex;
+  gap: 0.9rem;
+  margin: 0;
+  padding: 0.75rem;
+  overflow-x: auto;
+  list-style: none;
+  scroll-snap-type: x mandatory;
+  scrollbar-color: #8b8b8b #2a2a2a;
+  background-color: #202020;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+  border: 3px solid #000;
+}
+
+.work-card {
+  display: flex;
+  flex: 0 0 calc((100% - 1.8rem) / 3);
+  min-width: 0;
+  flex-direction: column;
+  gap: 0.4rem;
+  scroll-snap-align: start;
+}
+
+.work-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 0.9rem 1rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.65);
+  border: 2px solid #555;
+}
+
+.work-header {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.work-badge {
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  font-family: var(--font-pixel), monospace;
+  font-size: 0.55rem;
+  box-shadow: inset -3px -3px 0 rgba(0, 0, 0, 0.25), inset 3px 3px 0 rgba(255, 255, 255, 0.25);
+}
+
+.work-title {
+  margin: 0;
+  color: #ffff55;
+  font-family: "DotGothic16", var(--font-pixel), monospace;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.4;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.work-desc {
+  margin: 0;
+  color: #e0e0e0;
+  font-family: "DotGothic16", var(--font-pixel), monospace;
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+.work-tags,
+.work-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.work-tags li {
+  padding: 0.05rem 0.45rem;
+  color: #fff;
+  font-family: "DotGothic16", var(--font-pixel), monospace;
+  font-size: 0.75rem;
+  background: #5a5a5a;
+  border: 2px solid #000;
+}
+
+.work-date {
+  margin: auto 0 0;
+  color: #aaa;
+  font-size: 0.6rem;
+  text-align: right;
+}
+
+.work-tweet {
+  min-height: 200px;
+  background: #fff;
+  border: 2px solid #000;
+}
+
+.work-tweet .twitter-tweet {
+  margin: 0 !important;
+}
+
+.work-tweet-link {
+  color: #fff;
+  font-family: "DotGothic16", var(--font-pixel), monospace;
+  font-size: 0.8rem;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.works-hint {
+  margin: 0.6rem 0 0;
+  color: #555;
+  font-family: "DotGothic16", var(--font-pixel), monospace;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 767px) {
+  .works-section {
+    padding: 0.8rem;
+  }
+
+  .works-carousel-controls {
+    margin-top: 0.4rem;
+  }
+
+  .work-card {
+    flex-basis: 85%;
+  }
+}

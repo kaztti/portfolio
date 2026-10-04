@@ -33,6 +33,10 @@ const items = {
     rows: ["..GGGG..", ".GwwwwG.", "GwwwwrwG", "GwwwrwwG", "GwwKwwwG", "GwKwwwwG", ".GwwwwG.", "..GGGG.."],
     palette: { G: "#7d7d7d", w: "#e6e6e6", r: "#d02020", K: "#404040" },
   },
+  pickaxe: {
+    rows: [".DDDDD..", "D..SDDD.", "...S.DD.", "..S...D.", ".S......", "S.......", "........", "........"],
+    palette: { D: "#2bd9c8", S: "#7a5a33" },
+  },
   head: {
     rows: ["WBWWWWBW", "BWWWWWWB", "WWWWWWWW", "WBWWWWBW", "WWWWWWWW", "WWWWWWWW", "WWWBWWWW", "WWWWWWWW"],
     palette: { W: "#f4f4f4", B: "#4a2e14" },

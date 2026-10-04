@@ -10,6 +10,7 @@ const biomes: Record<string, string> = {
   "/profile": "minecraft:meadow (自己紹介の草原)",
   "/skills": "minecraft:deep_dark (エンチャントの書庫)",
   "/achievements": "minecraft:badlands (進捗の荒野)",
+  "/works": "minecraft:lush_caves (作品の洞窟)",
 };
 
 const facings = ["south (Towards +Z)", "west (Towards -X)", "north (Towards -Z)", "east (Towards +X)"];
