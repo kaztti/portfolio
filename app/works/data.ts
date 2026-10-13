@@ -26,6 +26,11 @@ export const workSections: WorkSection[] = [
     title: "プラグイン",
     items: [
       {
+        id: "realistic-paintings",
+        title: "絵画にリアルな写真を追加",
+        tweetUrl: "https://x.com/kaz_tti/status/2110030895059177871",
+      },
+      {
         id: "sulfur-magma-cube",
         title: "マグマキューブをサルファー化",
         tweetUrl: "https://x.com/kaz_tti/status/2105999558291730641",
